@@ -1,3 +1,9 @@
+# Team Members
+This group has 3 members:
+Michael
+Skyler
+Madeline
+
 # CTK Replication
 
 This folder currently contains 4 files:
