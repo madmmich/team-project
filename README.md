@@ -1,8 +1,12 @@
 # Team Members
 This group has 3 members:
+
 Michael
+
 Skyler
+
 Madeline
+
 
 # CTK Replication
 
