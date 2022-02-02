@@ -1,5 +1,13 @@
 # CTK Replication
 
+This group has 3 members:
+
+Michael
+
+Skyler
+
+Madeline
+
 This folder currently contains 4 files:
 
  1. this **README** file
