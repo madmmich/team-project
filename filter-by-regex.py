@@ -64,10 +64,6 @@ with open('pro-who-tweets.csv') as file:
 # output your list as a .csv or .tsv file.
 
 
-
-
-
-
 # === Part 2: Uniqueness ===
 
 # -- Instruction: -- You now need to find out whether the tweets you have left are "literary" or "non-literary", according to CTK's classification. I've written a bit of this for you. Modify the block of code below so that it runs with your variable names. You should replace 'tweetList' in the 'for' block with your variable name that holds the final filtered list of 'PRO who' tweets.
@@ -76,18 +72,18 @@ with open('pro-who-tweets.csv') as file:
 tweetList = ['this is a quote: he who shall not be named', 'who among us really', 'jeff is wondering who sings', 'he who shall not be named again', 'but who among us is perfect']
 
 # This evaluates each tweet in TweetList for whether it contains the specified regex search, and whether that regex pattern in a tweet matches exactly to any other tweet in the list. If it does, it is assigned a value True. If it doesn't, it's assigned a value False.
+
 trueFalseList = []
-for tweet in tweetList:
+for tweet in content:
   whoPhrase = re.search("who \w+ \w+", tweet)
   if whoPhrase is None:
       trueFalseList.append(False)
   else:
-      trueFalseList.append(any(whoPhrase.group(0) in t for t in tweetList))
+      trueFalseList.append(any(whoPhrase.group(0) in t for t in content))
 print(trueFalseList)
 
 # The following takes our two lists, tweetList and trueFalseList, and zips them together. It then creates a dataframe out of this list, that can then be converted to a .csv file
 
-annotatedTweetList = list(zip(tweetList, trueFalseList))
+annotatedTweetList = list(zip(content, trueFalseList))
 tweetDataframe = pandas.DataFrame(annotatedTweetList)
 tweetDataframe.to_csv('literary-annotated-tweets.csv', header=["Tweets", "isLiterary"], index=False)
-
