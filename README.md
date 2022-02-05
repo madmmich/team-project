@@ -8,12 +8,13 @@ Skyler
 
 Madeline
 
-This folder currently contains 4 files:
+This folder currently contains 5 files:
 
  1. this **README** file
  2. **scrapeTweets.py**, a script that was used to scrape data from Twitter of the pattern _PRONOUN who_ from tweets posted on 22 September, 2021. 
  3. **pro-who-tweets.csv**, a file containing the tweets that were scraped, gathered on 08 January 2022.
  4. **filter-by-regex.py**, a .py file containing descriptions of the patterns that students should use to filter out irrelevant examples from **pro-who-tweets.csv**
+ 5. **literary-annotated-tweets.py**, a .py file containing the filtered tweets and their corresponding uniqueness.
 
 ### Overview of data in _pro-who-tweets.csv_
 
