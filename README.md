@@ -8,6 +8,10 @@ Skyler
 
 Madeline
 
+A folder titled "Project Ideas" that contains:
+
+ 1. **Project Project** file, .pdf that contains ideas for our project
+
 This folder currently contains 5 files:
 
  1. this **README** file
