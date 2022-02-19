@@ -10,12 +10,27 @@ Madeline
 
 # CTK Replication
 
-This folder currently contains 4 files:
+This group has 3 members:
+
+Michael
+
+Skyler
+
+Madeline
+
+A folder titled "Project Ideas" that contains:
+
+ 1. **Project Project.pdf** file, contains ideas for our project proposals
+
+This folder currently contains 5 files:
 
  1. this **README** file
- 2. **scrapeTweets.py**, a script that was used to scrape data from Twitter of the pattern _PRONOUN who_ from tweets posted on 22 September, 2021. 
- 3. **pro-who-tweets.csv**, a file containing the tweets that were scraped, gathered on 08 January 2022.
- 4. **filter-by-regex.py**, a .py file containing descriptions of the patterns that students should use to filter out irrelevant examples from **pro-who-tweets.csv**
+ 2. **filter-by-regex.py**, a .py file containing descriptions of the patterns that students should use to filter out irrelevant examples from **pro-who-tweets.csv**
+ 3. **literary-annotated-tweets.py**, a .py file containing the filtered tweets and their corresponding uniqueness.
+ 4. **pro-who-tweets.csv**, a file containing the tweets that were scraped, gathered on 08 January 2022.
+ 5. **scrapeTweets.py**, a script that was used to scrape data from Twitter of the pattern _PRONOUN who_ from tweets posted on 22 September, 2021. 
+ 6. **tweet-observations.pdf**, contains a pdf file outlining observations about our filtered tweets and a summary of our annotations
+ 7. **tweet-analysis.csv**, a compilation of our tweets including annotations
 
 ### Overview of data in _pro-who-tweets.csv_
 
